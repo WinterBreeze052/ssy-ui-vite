@@ -27,6 +27,7 @@
     }
   },
   "dependencies": {
+    "ssy-ui-vite": "file:",
     "vue": "^3.5.12"
   },
   "devDependencies": {

@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      ssy-ui-vite:
+        specifier: 'file:'
+        version: file:(typescript@5.5.4)
       vue:
         specifier: ^3.5.12
         version: 3.5.12(typescript@5.5.4)
@@ -3064,6 +3067,9 @@ packages:
   split2@4.2.0:
     resolution: {integrity: sha512-UcjcJOWknrNkF6PLX83qcHM6KHgVKNkV62Y8a5uYDVv9ydGQVwAHMKqHdJje1VTWpljG0WYpCDhrCdAOYH4TWg==}
     engines: {node: '>= 10.x'}
+
+  'ssy-ui-vite@file:':
+    resolution: {directory: '', type: directory}
 
   stable-hash@0.0.4:
     resolution: {integrity: sha512-LjdcbuBeLcdETCrPn9i8AYAZ1eCtu4ECAWtP7UleOiZ9LzVxRzzUZEoZ8zB24nhkQnDWyET0I+3sWokSDS3E7g==}
@@ -6914,6 +6920,12 @@ snapshots:
   speakingurl@14.0.1: {}
 
   split2@4.2.0: {}
+
+  ssy-ui-vite@file:(typescript@5.5.4):
+    dependencies:
+      vue: 3.5.12(typescript@5.5.4)
+    transitivePeerDependencies:
+      - typescript
 
   stable-hash@0.0.4: {}
 
