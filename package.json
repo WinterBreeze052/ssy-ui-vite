@@ -27,6 +27,7 @@
     }
   },
   "dependencies": {
+    "commitizen": "^4.3.1",
     "ssy-ui-vite": "file:",
     "vue": "^3.5.12"
   },
