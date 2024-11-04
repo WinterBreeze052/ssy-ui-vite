@@ -12,6 +12,9 @@
 
 <p align="center">
   <img src="https://img.shields.io/github/license/WinterBreeze052/ssy-ui-vite?color=red">
+  <a href="https://codecov.io/github/WinterBreeze052/ssy-ui-vite" >
+  <img src="https://codecov.io/github/WinterBreeze052/ssy-ui-vite/graph/badge.svg?token=C5SOVCN4QK"/>
+  </a>
 </p>
 
 ## Features

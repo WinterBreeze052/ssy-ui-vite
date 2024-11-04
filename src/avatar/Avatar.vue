@@ -10,10 +10,7 @@ const { round = false, size = '24px' } = defineProps<AvatarProps>()
 
 <template>
   <img
-    :src="url"
-    alt=""
-    class="object-cover"
-    :class="round ? 'rounded-full' : 'rounded-lg'"
+    :src="url" alt="" class="object-cover" :class="round ? 'rounded-full' : 'rounded-lg'"
     :style="{ width: size, height: size }"
   >
 </template>
