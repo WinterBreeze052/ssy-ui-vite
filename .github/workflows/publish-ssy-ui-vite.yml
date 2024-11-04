@@ -2,7 +2,7 @@ name: PublishToNpm
 
 on:
   push:
-    branches: [publish-ssy-ui-vite]
+    branches: [main, publish-ssy-ui-vite]
 
 jobs:
   publish:
